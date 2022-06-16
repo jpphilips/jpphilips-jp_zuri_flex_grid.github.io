@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color:black;
+
+}
+
+nav a:hover{
+    background-color:rgb(110, 104, 87);
+}
