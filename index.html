@@ -12,6 +12,105 @@
             rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/index-style.css">
+        <style>
+            body {
+                font-family: 'Lexend Deca', sans-serif;
+                font-size: 15px;
+                color: #fff;
+                text-align: center;
+
+            }
+
+            .flex-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50%;
+                margin: 40px auto;
+
+            }
+
+            img {
+                max-width: 3rem;
+                height: auto;
+            }
+
+            h1 {
+                font-family: 'Big Shoulders Display', cursive;
+                margin: 2rem 0px;
+                font-weight: 700;
+            }
+
+            p {
+                margin: 2rem 0px;
+            }
+
+            .box {
+                padding: 30px;
+                width: 180px;
+                height: 340px;
+                text-align: left;
+                vertical-align: middle;
+            }
+
+            .box-1 {
+                background-color: hsl(31, 77%, 52%);
+                border-top-left-radius: 7px;
+                border-bottom-left-radius: 7px;
+            }
+
+            .box-2 {
+                background-color: hsl(184, 100%, 22%);
+            }
+
+            .box-3 {
+                background-color: hsl(179, 100%, 13%);
+                border-top-right-radius: 7px;
+                border-bottom-right-radius: 7px;
+            }
+
+            button {
+                margin-top: 40px;
+                border: none;
+                border-radius: 100px;
+                padding: 10px 25px;
+
+            }
+
+            .btn-1 {
+                color: hsl(31, 77%, 52%);
+            }
+
+            .btn-2 {
+                color: hsl(184, 100%, 22%);
+            }
+
+            .btn-3 {
+                color: hsl(179, 100%, 13%);
+            }
+
+            button:hover {
+                border: solid 2px #fff;
+                background-color: transparent;
+                color: #fff;
+            }
+
+            @media screen and (max-width:800px) {
+                .flex-container {
+                    flex-direction: column;
+                    width: 60%;
+                    position: relative;
+                }
+
+                .box {
+                    width: 70%;
+                    height: 3%;
+                    margin: 0px 0px 20px 0px;
+                    border-radius: 7px;
+                }
+            }
+
+        </style>
     </head>
     <body>
         <header>
